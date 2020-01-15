@@ -1,0 +1,20 @@
+{
+  "name": "blog-site",
+  "version": "0.0.1",
+  "description": "博客站点",
+  "main": "index.js",
+  "authors": {
+    "name": "colien",
+    "email": "278773844@qq.com"
+  },
+  "repository": "/blog-site",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^1.5.0",
+    "vuepress": "^1.2.0"
+  }
+}
